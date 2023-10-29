@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(34, 34, 153);
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(15, 15, 73, 0.918);
+    color: rgb(238, 220, 56);
+}
+
+header h1:hover {
+    color: aliceblue;
+}
+
+
+header h1 {
+    float:initial;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 200;
+    font-size: 45px;
+    color: rgb(238, 220, 56);
+}
+
+header a {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+header a:hover {
+    color: rgb(238, 220, 56);
+}
+
+section h3,
+section h2{
+    color:aliceblue;
+    margin-bottom: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+}
+
+section p,
+section a {
+    color:aliceblue;
+    margin-bottom: 10px;
+}
+
+.texto a:hover {
+    text-decoration: underline;
+    color: rgb(238, 220, 56);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container li{
+    display: inline;
+    align-items: center;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.streamers {
+    width: 400px;
+    display:inline-table;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.img {
+    width: 400px;
+}
+
+.mini-img {
+    width: 200px;
+    padding-inline: 5px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.brands img {
+    margin: 4px;
+    height: 20px;
+}
+
+#contact-section .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+button {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.social-media img{
+    margin-right: 10px;
+    height: 25px;
+    display: inline;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: rgba(15, 15, 73, 0.918);
+    color: aliceblue;
+}
+
+form button {
+    color: white;
+    background-color: rgba(15, 15, 73, 0.918);
+    font-family: 'Mukta', sans-serif;
+    font-weight:lighter;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+form button:hover {
+    background-color: rgb(36, 36, 165)
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(14, 5, 46);
+}
